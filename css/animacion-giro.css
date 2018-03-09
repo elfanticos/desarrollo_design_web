@@ -1,0 +1,28 @@
+body {
+	padding: 5%;
+}
+
+div.giro {
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 60px;
+	margin: 50px 0 0 20px;
+	overflow: hidden;	
+}
+
+.giro {
+	-webkit-transform-origin: center;
+	-webkit-animation: 2s giro 1;
+}
+
+@-webkit-keyframes giro{
+	0%{
+		opacity: 0;
+		-webkit-transform: rotate(-200deg);
+	}
+
+}

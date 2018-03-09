@@ -1,0 +1,34 @@
+body {
+	padding: 5%;
+}
+
+div {
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 0px;
+	position: relative;
+	left: 50px;
+	margin-left: -60px;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.rebote {
+	-webkit-animation: 1s rebote 1;
+}
+
+@-webkit-keyframes rebote {
+	20%, 50%, 80%{
+		-webkit-transform:translateY(0px);
+	}
+	40%{
+		-webkit-transform:translateY(-45px);
+	}
+	60%{
+		-webkit-transform:translateY(-25px);
+	}
+}

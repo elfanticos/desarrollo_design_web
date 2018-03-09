@@ -1,0 +1,30 @@
+body {
+	background-color: orange;
+}
+
+div {
+	width: 80%;
+	height: 150px;
+	margin: 8%;
+	display: inline-block;
+	background: white;
+}
+
+
+@media screen and (min-width: 480px) {
+	body {
+		background-color: green;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	body {
+		background-color: pink;
+	}
+}
+
+@media screen and (min-width: 950px) {
+	body {
+		background-color: red;
+	}
+}

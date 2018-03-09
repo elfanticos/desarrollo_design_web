@@ -1,0 +1,8 @@
+p {
+	border: 2px solid red;
+	background: orange;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	text-transform: lowercase;
+}

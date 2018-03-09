@@ -1,0 +1,24 @@
+body {
+	padding: 5%;
+	background: #7F1637;
+}
+
+div {
+	font-family: Arial;
+	background-color: #A8CF45;
+	margin: 10px 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: 15px 30px;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.esquina_redondeada {
+	-webkit-tansition-duration: 0.3s;
+}
+
+.esquina_redondeada:hover {
+	border-radius: 20px;
+}

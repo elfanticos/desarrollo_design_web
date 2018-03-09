@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Sedgwick';
+	src: url(../fonts/Sedgwick/SedgwickAveDisplay-Regular.ttf);
+	src: local(?),
+		 url(../fonts/Athena/AthenaoftheOcean.ttf) format("truetype");
+}
+
+p {
+	font-family: Sedgwick, Arial;
+}

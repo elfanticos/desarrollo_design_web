@@ -1,0 +1,24 @@
+p {
+	position: relative;
+}
+
+a#link1:visited {
+	color:red;
+}
+
+a:#link2:visited {
+	color : green;
+}
+
+p:hover {
+	background-color: green;
+	color:white;
+}
+
+span:active {
+	color:green;
+}
+
+input:focus {
+	border-radius: 20px;
+}

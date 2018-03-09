@@ -1,0 +1,44 @@
+/*h2[title] {
+	color: red;
+}*/
+
+/*h2[title="main"] {
+	color: red;
+}*/
+
+h2[title ~="cabecera"] {
+	color: red;
+}
+
+h2[lang |= "es"] {
+	color: blue;
+}
+
+/*header h2,h3 {
+	color:green ;
+}
+*/
+/*p {
+	color :red;
+}
+
+p#azul {
+	color: orange;
+}
+
+.prueba {
+	color: blue;
+}
+
+.grande {
+	font-size: 20px;
+}
+
+p+p {
+	font-weight: bold;
+}*/
+
+div > p {
+
+	color:red;
+}

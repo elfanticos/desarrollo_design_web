@@ -1,0 +1,39 @@
+body {
+	padding: 5%;
+}
+
+div {
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 0px;
+	position: relative;
+	left: 50px;
+	margin-left: -60px;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.giroY {
+	-webkit-animation: 1.5s giroY 1;
+	-webkit-backface-visibility:visible;
+}
+
+@-webkit-keyframes giroY {
+	0% {
+		opacity: 0.5;
+		-webkit-transform : perspective(200px)
+							rotateY(90deg);
+	}
+	40% {
+		-webkit-transform : perspective(200px)
+							rotatey(-20deg);
+	}
+	70% {
+		-webkit-transform : perspective(200px)
+							rotateY(20deg);
+	}
+}

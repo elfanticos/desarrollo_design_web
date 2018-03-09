@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Sedgwick";
+	src :url('../fonts/Sedgwick/SedgwickAveDisplay-Regular.ttf');
+}
+
+div {
+	border: 2px solid black;
+	width: 50%;
+	position: relative;
+	margin-left: 25%;
+	cursor: pointer;
+}
+
+div:hover {
+	background: orange;
+}
+
+a{
+	text-decoration: none;
+	font-family: Sedgwick;
+}
+a:focus {
+	color: red;
+}
